@@ -250,7 +250,6 @@ class ViewController: UIViewController, UIColorPickerViewControllerDelegate {
             shareButton.isHidden = false
             odaiButton.isHidden = false
         }
-        
     }
     
     @IBAction func back() {
