@@ -45,10 +45,10 @@ class ViewController: UIViewController, UIColorPickerViewControllerDelegate {
     @IBOutlet var canvas: PKCanvasView!
     
     @IBOutlet var odaiButton: UIButton!
-    
-    @IBOutlet var odaiForImage: UILabel!
-    
-    @IBOutlet var timeForimage: UILabel!
+//    
+//    @IBOutlet var odaiForImage: UILabel!
+//    
+//    @IBOutlet var timeForimage: UILabel!
     
     
     
@@ -62,13 +62,14 @@ class ViewController: UIViewController, UIColorPickerViewControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        canvas.drawingPolicy = .anyInput
         
-        odaiForImage.layer.cornerRadius = 20
-        odaiForImage.layer.cornerCurve = .continuous
-        odaiForImage.layer.masksToBounds = true
-        timeForimage.layer.cornerRadius = 20
-        timeForimage.layer.cornerCurve = .continuous
-        timeForimage.layer.masksToBounds = true
+//        odaiForImage.layer.cornerRadius = 20
+//        odaiForImage.layer.cornerCurve = .continuous
+//        odaiForImage.layer.masksToBounds = true
+//        timeForimage.layer.cornerRadius = 20
+//        timeForimage.layer.cornerCurve = .continuous
+//        timeForimage.layer.masksToBounds = true
         
         label.font = .monospacedDigitSystemFont(ofSize: 55, weight: .bold)
         
@@ -199,8 +200,8 @@ class ViewController: UIViewController, UIColorPickerViewControllerDelegate {
         index = Int.random(in: 0...odaiArray.count-1)
         odailabel.text = odaiArray[index]
         countdouwn = Int.random(in: 10...30)
-        odaiForImage.text = " " + odaiArray[index]
-        timeForimage.text = " " + countdouwn.timerFormat + "秒"
+//        odaiForImage.text = " " + odaiArray[index]
+//        timeForimage.text = " " + countdouwn.timerFormat + "秒"
         resultodai = "\(countdouwn.timerFormat)秒で描いた\(odaiArray[index])"
         if timer != nil{
             timer.invalidate()
@@ -258,25 +259,24 @@ class ViewController: UIViewController, UIColorPickerViewControllerDelegate {
     
     func exportImage() -> UIImage {
         if isPractice == false {
-            odaiForImage.isHidden = false
-            timeForimage.isHidden = false
+//            odaiForImage.isHidden = false
+//            timeForimage.isHidden = false
         }
-        let image = canvas.asImage()
-        odaiForImage.isHidden = true
-        timeForimage.isHidden = true
+        let image = canvas.drawing.image(from: canvas.frame, scale: 1)
+//        odaiForImage.isHidden = true
+//        timeForimage.isHidden = true
         return image
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! ResultViewController
-        vc.resultImage = canvas.asImage()
+        vc.resultImage = canvas.drawing.image(from: canvas.frame, scale: 1)
         vc.resultodai = resultodai
     }
 }
 
 
 extension UIView{
-    
     func asImage() -> UIImage {
         let renderer = UIGraphicsImageRenderer(bounds: bounds)
         return renderer.image { rendererContext in

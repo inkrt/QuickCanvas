@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC087D192C1555C8004A7113 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D182C1555C8004A7113 /* DrawViewController.swift */; };
+		EC087D1B2C15561A004A7113 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D1A2C15561A004A7113 /* StartViewController.swift */; };
+		EC087D1D2C1557B1004A7113 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D1C2C1557B1004A7113 /* PeopleViewController.swift */; };
+		EC087D1F2C155875004A7113 /* OdaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D1E2C155875004A7113 /* OdaiViewController.swift */; };
+		EC087D212C1558B6004A7113 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D202C1558B6004A7113 /* OrderViewController.swift */; };
+		EC087D232C15598F004A7113 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D222C15598F004A7113 /* AnswerViewController.swift */; };
+		EC087D252C156C72004A7113 /* JunbanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D242C156C72004A7113 /* JunbanViewController.swift */; };
+		EC087D272C156CE4004A7113 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D262C156CE4004A7113 /* LogViewController.swift */; };
+		EC087D292C156D27004A7113 /* ContinueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC087D282C156D27004A7113 /* ContinueViewController.swift */; };
 		EC94277F2B538C2800E06CFB /* ModeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94277E2B538C2800E06CFB /* ModeSelectViewController.swift */; };
 		ECB838EB2AEDF97E0000D09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB838EA2AEDF97E0000D09C /* AppDelegate.swift */; };
 		ECB838ED2AEDF97E0000D09C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB838EC2AEDF97E0000D09C /* SceneDelegate.swift */; };
@@ -19,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC087D182C1555C8004A7113 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		EC087D1A2C15561A004A7113 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		EC087D1C2C1557B1004A7113 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		EC087D1E2C155875004A7113 /* OdaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdaiViewController.swift; sourceTree = "<group>"; };
+		EC087D202C1558B6004A7113 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		EC087D222C15598F004A7113 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		EC087D242C156C72004A7113 /* JunbanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunbanViewController.swift; sourceTree = "<group>"; };
+		EC087D262C156CE4004A7113 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		EC087D282C156D27004A7113 /* ContinueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueViewController.swift; sourceTree = "<group>"; };
 		EC94277E2B538C2800E06CFB /* ModeSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectViewController.swift; sourceTree = "<group>"; };
 		ECB838E72AEDF97E0000D09C /* aa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB838EA2AEDF97E0000D09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +90,15 @@
 				ECB838F52AEDF9800000D09C /* LaunchScreen.storyboard */,
 				ECB838F82AEDF9800000D09C /* Info.plist */,
 				ECBA2F742B7876A100D70808 /* crayon_1-1.ttf */,
+				EC087D1A2C15561A004A7113 /* StartViewController.swift */,
+				EC087D182C1555C8004A7113 /* DrawViewController.swift */,
+				EC087D1C2C1557B1004A7113 /* PeopleViewController.swift */,
+				EC087D1E2C155875004A7113 /* OdaiViewController.swift */,
+				EC087D202C1558B6004A7113 /* OrderViewController.swift */,
+				EC087D222C15598F004A7113 /* AnswerViewController.swift */,
+				EC087D242C156C72004A7113 /* JunbanViewController.swift */,
+				EC087D262C156CE4004A7113 /* LogViewController.swift */,
+				EC087D282C156D27004A7113 /* ContinueViewController.swift */,
 			);
 			path = aa;
 			sourceTree = "<group>";
@@ -148,11 +175,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC087D192C1555C8004A7113 /* DrawViewController.swift in Sources */,
+				EC087D212C1558B6004A7113 /* OrderViewController.swift in Sources */,
+				EC087D1F2C155875004A7113 /* OdaiViewController.swift in Sources */,
+				EC087D272C156CE4004A7113 /* LogViewController.swift in Sources */,
+				EC087D1D2C1557B1004A7113 /* PeopleViewController.swift in Sources */,
+				EC087D1B2C15561A004A7113 /* StartViewController.swift in Sources */,
 				ECBA2F772B7887F000D70808 /* ResultViewController.swift in Sources */,
+				EC087D292C156D27004A7113 /* ContinueViewController.swift in Sources */,
 				ECB838EF2AEDF97E0000D09C /* ViewController.swift in Sources */,
 				EC94277F2B538C2800E06CFB /* ModeSelectViewController.swift in Sources */,
 				ECB838EB2AEDF97E0000D09C /* AppDelegate.swift in Sources */,
 				ECB838ED2AEDF97E0000D09C /* SceneDelegate.swift in Sources */,
+				EC087D252C156C72004A7113 /* JunbanViewController.swift in Sources */,
+				EC087D232C15598F004A7113 /* AnswerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,23 +340,27 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZDG833NZ65;
+				DEVELOPMENT_TEAM = F4SWC3MZ4B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = aa/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Quick Canvas";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "画像をフォトライブラリに保存します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.masumizu.masumizu.aa;
+				PRODUCT_BUNDLE_IDENTIFIER = app.masumizu.masumizu.quickCanvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -334,23 +374,27 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZDG833NZ65;
+				DEVELOPMENT_TEAM = F4SWC3MZ4B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = aa/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Quick Canvas";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "画像をフォトライブラリに保存します。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.masumizu.masumizu.aa;
+				PRODUCT_BUNDLE_IDENTIFIER = app.masumizu.masumizu.quickCanvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;

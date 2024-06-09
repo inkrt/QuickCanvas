@@ -18,9 +18,12 @@ class ModeSelectViewController: UIViewController {
         performSegue(withIdentifier: "toDraw", sender: true)
         
     }
-        @IBAction func playMode(){
+    @IBAction func playMode(){
         performSegue(withIdentifier: "toDraw", sender: false)
     }
+    @IBAction func odaiMode(){
+    performSegue(withIdentifier: "toDraw", sender: false)
+}
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

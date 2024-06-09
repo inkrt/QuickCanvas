@@ -21,9 +21,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>CFBundleIdentifier</key>
-	<string></string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>画像をフォトライブラリに保存します。</string>
 </dict>
 </plist>
