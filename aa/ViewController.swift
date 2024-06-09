@@ -11,7 +11,6 @@ import PencilKit
 
 class ViewController: UIViewController, UIColorPickerViewControllerDelegate {
     
-    
     var colorPicker = UIColorPickerViewController()
     
     var penWidth: CGFloat = 15
