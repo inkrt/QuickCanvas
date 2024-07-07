@@ -327,7 +327,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.56641593700000004" green="0.91246448859999996" blue="0.90108330430000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="色"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akf-un-9My">
                                 <rect key="frame" x="773" y="316" width="75" height="35"/>
@@ -479,7 +479,9 @@
                         <viewLayoutGuide key="safeArea" id="3SE-KN-MVV"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="spz-eB-QLq"/>
                     <connections>
+                        <outlet property="canvas" destination="fIH-ND-LB0" id="VhQ-Mw-82k"/>
                         <outlet property="toolSegment" destination="eRC-wv-TTv" id="byD-Ih-pBG"/>
                     </connections>
                 </viewController>
@@ -587,6 +589,13 @@
                                 <rect key="frame" x="233" y="76" width="615" height="432"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お題" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dT-qE-iL3">
+                                <rect key="frame" x="273" y="617" width="502" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ONQ-H0-Vtd"/>
                         <color key="backgroundColor" red="0.56641593702685122" green="0.91246448863636365" blue="0.90108330426191074" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -631,12 +640,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y92-lN-jfP">
-                                <rect key="frame" x="995" y="755" width="56" height="35"/>
+                                <rect key="frame" x="967" y="755" width="56" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="描く"/>
                                 <connections>
-                                    <segue destination="Jnl-7L-rl0" kind="presentation" id="teA-Dh-Z2w"/>
+                                    <segue destination="Jnl-7L-rl0" kind="presentation" id="zLW-6l-MMQ"/>
                                 </connections>
                             </button>
                         </subviews>
